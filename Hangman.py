@@ -1,3 +1,73 @@
+graphic = [
+        """
+            +-------+
+            |
+            |
+            | 
+            |
+            |
+         ==============
+        """
+            ,
+        """
+            +-------+
+            |       |
+            |       0
+            | 
+            |
+            |
+         ==============
+        """
+            ,
+        """
+            +-------+
+            |       |
+            |       0
+            |       |
+            |
+            |
+         ==============
+        """
+            ,
+        """
+            +-------+
+            |       |
+            |       0
+            |      -|
+            |
+            |
+         ==============
+        """
+            ,
+        """
+            +-------+
+            |       |
+            |       0
+            |      -|-
+            |
+            |
+         ==============
+        """
+            ,
+        """
+            +-------+
+            |       |
+            |       0
+            |      -|-
+            |      /
+            |
+         ==============
+        """
+            ,
+        """
+            +-------+
+            |       |
+            |       0
+            |      -|-
+            |      / \
+            |
+         ==============
+        """]
 import random
 word_list = ["Apple", "Banana", "Cherry", "Date", "Eggplant", "Figs", "Grape", "Honeydew", "Iguana", "Jackal", "Kiwi", "Lemon", "Mango", "Nectarine", "Orange", "Papaya", "Quince", "Raspberry", "Strawberry", "Tomato", "Umbrella", "Violet", "Watermelon", "Xylophone", "Yogurt", "Zebra", "Ant", "Bear", "Cat", "Dog", "Elephant", "Fox", "Giraffe", "Horse", "Iguana", "Jaguar", "Kangaroo", "Lion", "Monkey", "Nightingale", "Octopus", "Penguin", "Quokka", "Raccoon", "Squirrel", "Tiger", "Umbrella", "Vulture", "Walrus", "X-ray", "Yak", "Zebra", "Astronomy", "Biology", "Chemistry", "Drama", "Economics", "French", "Geography" "Amethyst", "Beehive", "Cucumber", "Dolphin", "Eagle", "Flamingo", "Gazelle", "Hyena", "Ibis", "Jellyfish", "Koala", "Lemur", "Mantis", "Nightingale", "Ocelot", "Puma", "Quail", "Rhinoceros", "Salamander", "Tapir", "Uakari", "Vervet", "Wombat", "X-ray", "Yeti", "Zucchini", "Alchemy", "Botany", "Cryptocurrency", "Dramatic", "Esoteric", "Futuristic", "Gourmet", "Harmonious", "Intricate", "Juxtapose", "Kaleidoscopic", "Luminous", "Mysterious", "Nurturing", "Oblivion", "Philosophy", "Quintessential", "Rhapsodic", "Serendipity", "Transformation", "Unicorn", "Vivid", "Whimsical", "Xenophile", "Yesteryear", "Zeppelin", "Ambiguous", "Benevolent", "Cacophony", "Dandelion", "Effervescent", "Felicity", "Gossamer", "Hypnotic", "Incandescent", "Juxtaposition", "Kaleidoscope", "Labyrinth", "Melancholy", "Nostalgia", "Obliterate", "Peregrine", "Quotidian", "Reticent", "Surreptitious", "Talisman", "Ubiquitous", "Vexatious", "Whispering", "Xenophobes", "Yesteryears", "Zephyr"]
 #randomly choose a word from the above list assign it a variable of chosen word
